@@ -52,6 +52,8 @@ class MysteryBox {
 
     this.container!.classList.add('game-started');
 
+    item.classList.add('box-selected');
+
     setTimeout(() => {
       items.forEach((i) => {
         if (i === item) {
@@ -87,6 +89,8 @@ class MysteryBox {
     const items = this.container.querySelectorAll('.mystery-box__item');
 
     items.forEach((item) => {
+      item.classList.remove('box-selected');
+
       if (!item.classList.contains('box-won')) {
         item.classList.remove('box-loss');
       }
