@@ -9,6 +9,8 @@
 [![GitHub package version](https://img.shields.io/github/package-json/v/ux-ui-pro/mystery-box.svg)](https://github.com/ux-ui-pro/mystery-box)
 [![NPM Downloads](https://img.shields.io/npm/dm/mystery-box.svg?style=flat)](https://www.npmjs.org/package/mystery-box)
 
+<sup>0.7kB gzipped</sup>
+
 <a href="https://codepen.io/ux-ui/pen/ZYEErYj">Demo</a>
 
 </div>

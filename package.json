@@ -1,6 +1,6 @@
 {
   "name": "mystery-box",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "MysteryBox is a lightweight JavaScript class for creating an interactive mini-game with mystery boxes. It allows you to easily configure the number of rounds, the delay before showing results, and custom event handlers for round start and end.",
   "author": "ux-ui.pro",
   "license": "MIT",
@@ -24,9 +24,9 @@
   "source": "src/index.ts",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
+  "browser": "./dist/index.umd.js",
   "types": "dist/index.d.ts",
   "exports": {
-    "types": "./dist/index.d.ts",
     "import": "./dist/index.es.js",
     "require": "./dist/index.cjs.js"
   },
